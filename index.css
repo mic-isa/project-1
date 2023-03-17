@@ -1,0 +1,296 @@
+body{
+    background: url(kaa.webp) no-repeat ;
+    background-size: cover;
+    font-family:  Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 60px 0px;
+    width: 100%;
+    position: relative;
+    height: 550px;
+  
+}
+
+.SHANGHAI{
+    background-color: white;
+    margin: 0px 0px 00px 0px;
+    max-width: 30%;
+  
+    padding: 0px 0px;
+}
+
+.SHANGHAI h3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.SHANGHAI h4{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.SHANGHAI h3 img{
+    margin: 20px 0 0px 0;
+    max-width: 35%;
+}
+ 
+h4 img{
+    max-width: 5%;
+    margin-bottom: 0px;
+}
+
+.key{
+    border: 1.0px solid gray;
+    border-radius: 5px;
+    margin: 0;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 13px;
+    height: 30px;
+    width: 280px;
+    background: url(key.png) no-repeat left;
+    margin-bottom: 20px;
+} 
+
+.user{
+    border: 1.0px solid gray;
+    border-radius: 5px;
+    margin: 0;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 13px;
+    height: 30px;
+    width:280px;
+    background: url(user.png) no-repeat left;
+    margin-bottom: 20px;
+} 
+
+.lock{
+    border: 1.0px solid grey;
+    border-radius: 5px;
+    margin: 0;
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 13px;
+    height: 30px;
+    width: 280px;
+    background: url(lock.png) no-repeat left;
+    background-size: 25px;;
+    margin-bottom: 20px;
+} 
+ 
+ 
+.img{
+    max-width: 100%;
+    background-color:rgb(207, 245, 245);
+    padding: 20px 3px 0px 15px;
+    margin: 0;
+}
+form{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+form input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.Login{
+    background-color: rgb(113, 40, 250);
+    color:white;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 10px;
+}
+
+.forget{
+    background-color: azure;
+    border: 0;
+    color:gray ;
+    font-weight: bold;
+   margin-top: 15px;
+    font-size: 13px;
+    margin-left: 110px;
+}
+
+form .button{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.arrowup{
+    max-width: 5%;
+    position: absolute;
+    margin: 0px;
+    left: 17%;
+    bottom:   -4%;
+}
+
+.man{
+    max-width: 5%;
+    position: absolute;
+    margin: 0px;
+    left:25%;
+    bottom:   -7%;
+}
+
+@media screen and (max-width:1177px){
+    body{
+        background: url(kaa.webp) no-repeat ;
+        background-size: cover;
+        font-family:  Helvetica, sans-serif;
+        margin: auto;
+        padding: 5%;
+        box-sizing: border-box ;
+        width: 100%;
+        
+    }
+
+    .container{
+        margin: 00px 0px 010px 0px;
+        position: relative;
+        width: 100%;
+        display : flex;
+        flex-direction:column;
+        margin: auto auto;
+        align-items: center;
+        height:  auto;
+        margin-bottom: 5px;
+        margin-top: 080px;
+        padding: 0%;
+        margin: auto auto;
+        
+    }
+
+    .SHANGHAI{
+        margin: 5px 0px 00px 0px;
+        max-width: 100%;
+        padding: 10px 10px;
+        }
+
+    .SHANGHAI h4{
+        text-align: center;
+       margin-top: 20px;
+       font-size: 1.5rem;
+
+    }
+
+    .SHANGHAI h3{
+        text-align: center;
+        margin-top: 0px;
+        font-size:1.5rem;
+     }
+
+     .SHANGHAI h3 img{
+        margin: 20px 0 0px 0;
+        max-width: 50%;
+       
+      }
+
+      h4 img{
+        max-width: 7%;
+     }
+     
+    .key{
+        height: 50px;
+        width:70%;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+
+    .user{
+        height: 50px;
+        width:70%;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    } 
+
+    .lock{
+        height: 50px;
+        background-size: 30px;
+        width:70%;
+        margin-bottom: 20px;
+        margin-left: 1%;
+        font-size: 1.5rem;
+    }
+
+    .img{
+        margin: 0;
+        background-color:rgb(132, 233, 233);
+        padding: 0px 15.2% 0px 15.2%;
+        max-width: 0%;  
+        margin: 0;
+        text-align: center;
+        height: 0;
+        
+    }
+                
+    .Login{      
+        font-size: 1.8rem;
+        margin-right: 0%;
+        margin-left:0;
+        background-color: rgb(113, 40, 250);
+        color:white;
+        padding: 0.5% 1%;
+        border-radius: 20px;
+        border: 0;
+        margin: 10px auto;
+        width:60%;
+        height: 30%;
+    }
+                
+    .forget{
+        margin-top: 10px;
+        font-size: 1.5rem;
+        margin-right: 0;
+        margin-left:0;
+        background-color: white; 
+        padding: 0px 0px; 
+        width:100%;
+       
+    }
+                
+    .img img{
+        max-width: 0%;  
+    }           
+    
+    .arrowup{
+        max-width: 10%;
+        position: absolute;
+        margin: 0px;
+        left: 10%;
+        bottom:   -3.0%;
+    }
+    
+    .man{
+        max-width: 10%;
+        position: absolute;
+        margin: 0px;
+        left:25%;
+        bottom:   -4%;
+}
+
+form .button{ 
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+}
